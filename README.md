@@ -16,6 +16,8 @@ This project built on Laravel 10, Inertia with vue. cloning Google Drive functio
 To run the application you need to clone the repo to your local machine, and run it via:
 ```bash
 sail up -d
+sail composer update
+sail npm install
 sail npm run dev
 ```
 
